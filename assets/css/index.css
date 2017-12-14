@@ -11,6 +11,15 @@
   color: white !important;
 }
 
+.case{
+    background: #fff;
+    color: #663fb5;
+      width: 12%;
+      text-align: center;
+      position: absolute;
+      top: -12px;
+      left: 29px;
+  }
 /*got email*/
 .inputs { width: 30px !important; 
     margin: 5px !important;  }
@@ -467,6 +476,8 @@
 
     .tm-t-20{margin-top:20px !important;}
     .tm-t-30{margin-top:30px !important;}
+    .tm-t-45{margin-top:45px !important;}
+    .tm-t-50{margin-top:50px !important;}
     .tm-t-5p{margin-top:5% !important;}
     .tm-t-7p{margin-top:7% !important;}
     .tm-t-8p{margin-top:8% !important;}
@@ -551,8 +562,13 @@
   .mm-t-10{margin-top:10px !important;}
   .mm-t-20{margin-top:20px !important;}
   .mm-t-35{margin-top:35px !important;}
+  .mm-t-40{margin-top:40px !important;}
+  .mm-t-45{margin-top:45px !important;}
+  .mm-t-50{margin-top:50px !important;}
   .mm-t-86{margin-top:86px !important;}
   .mm-t-90{margin-top:90px !important;}
+  .mm-t-10p{margin-top:10% !important; }
+  .mm-t-21p{margin-top:21% !important; }
   .mm-t-25p{margin-top:25% !important; }
 
 
@@ -739,6 +755,16 @@
   .mbg-grey99{ background:#FCFCFC !important; background-color:#FCFCFC; }
 
   .mp-20 {padding:20px !important;}
+
+  .case{
+    background: #fff;
+    color: #663fb5;
+      width: 12%;
+      text-align: center;
+      position: absolute;
+      top: -9px;
+      left: 29px;
+  }
 
 
   .mbg-bugger{

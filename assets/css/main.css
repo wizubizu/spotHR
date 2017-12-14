@@ -177,6 +177,7 @@ select:focus {
 .m-l-85 {margin-left:85px !important;}
 .m-l-95 {margin-left:95px !important;}
 .m-l-150 {margin-left:150px !important;}
+.m-l-15p {margin-left:15% !important;}
 .m-l-20p {margin-left:20% !important;}
 .m-l-40p {margin-left:40% !important;}
 .m-l-34p {margin-left:34% !important;}
@@ -317,6 +318,7 @@ select:focus {
 .p-l-30p {padding-left:30% !important;}
 .p-l-40p {padding-left:40% !important;}
 .p-l-45p {padding-left:45% !important;}
+.p-l-60p {padding-left:60% !important;}
 
 /**** Padding Right  ****/
 .p-r-0{padding-right:0px !important;}
@@ -335,6 +337,7 @@ select:focus {
 /****  Top  ****/
 .t-0 { top:0; }
 .t-5 { top:5px; }
+.t-9 { top:9px; }
 .t-10 { top:10px; }
 .t-12 { top:12px; }
 .t-15 { top:15px; }
@@ -379,6 +382,7 @@ select:focus {
 .l-14 { left:14px !important; }
 .l-15 { left:15px !important; }
 .l-20 { left:20px !important; }
+.l-25 { left:25px !important; }
 .l-32 { left:32px !important; }
 .l-43 { left:43px !important; }
 .l-45 { left:45px !important; }
@@ -688,6 +692,7 @@ select:focus {
 .h-105 { height:105px !important; }
 .h-109 { height:109px !important; }
 .h-125 { height:125px !important; }
+.h-130 { height:130px !important; }
 .h-250 { height:250px !important; }
 .h-200 { height:200px !important; }
 .h-289 { height:289px !important; }
@@ -820,8 +825,8 @@ a:focus, a:hover {
     padding: 4px;
 }
 .activedashboard{
-	background-color: #BF0603 !important;
-	color: white !important;
+	background-color: #f9f9f9 !important;
+	color: #663fb5 !important;
 }
 #openSidebar{
 	display: none;

@@ -1,0 +1,306 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>spotHR</title>
+	
+
+	<!-- STYLESHEETS-->
+	<link rel="stylesheet" type="text/css" href="libraries/bootstrap/css/bootstrap.min.css">
+
+	<!-- CUSTOM STYLES -->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/switch.css">
+	
+
+
+	<!-- WEBFONT -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+
+	<!-- ICON -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="bg-greys">
+
+	<header>
+		
+
+		<div class="section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-2">
+						<div class="leftbar bs">
+							<i class="fa fa-close mm-t-50 tm-t-50" id="closebtn"></i>
+							<!-- <div class=" mm-t-40 tm-t-40">
+								<a href="index.html"><img src="assets/img/Image 9.svg" class="width-150 m-l-40 mm-l-20 m-t-10"></a>
+							</div>
+							<div class="m-t-30">
+								<p class="">League of Xtraordin...</p>
+								<p class=""><img src="assets/img/greencircle.svg" class="width-10">&nbsp; &nbsp;Adeem Balotola</p>
+							</div> -->
+							
+							<div class="m-t-80">
+								<p class="activedashboard"><a href="user-profile.html"><img src="assets/img/dash1.png" class="">&nbsp; &nbsp;Dashboard</a></p>
+								<p class=""><a href="client.html"><img src="assets/img/client1.png" class=""> &nbsp; &nbsp;Clients</a></p>
+								<p class=""><a href=""><img src="assets/img/manager.png" class="">&nbsp; &nbsp;Managers</a></p>
+								<p class=""><a href=""><img src="assets/img/employee.png" class="">&nbsp; &nbsp;Employees</a></p>
+								<p class=""><a href=""><img src="assets/img/roles.png" class="">&nbsp; &nbsp;Roles</a></p>
+							</div>
+							<hr class="m-t-150 mm-t-30 tm-t-20">
+							<p >
+							<a href=""><img src="assets/img/help.png" class=""> &nbsp; &nbsp;Help</a></p>
+
+							<p class="f2 f-16 mf-10 m-t-10p"><span>Abc</span> &nbsp; &nbsp; 
+								<span class="material-switch">
+		                            <input id="someSwitchOptionPrimary" name="someSwitchOption001" type="checkbox"/>
+		                            <label for="someSwitchOptionPrimary" class="bg-blues"></label>
+		                        </span> &nbsp; &nbsp;
+		                    <span>ABC</span></p>
+
+
+							<!-- <ul class="list-group">
+			                    <li class="list-group-item">
+			                        Bootstrap Switch Default
+			                        <div class="material-switch pull-right">
+			                            <input id="someSwitchOptionDefault" name="someSwitchOption001" type="checkbox"/>
+			                            <label for="someSwitchOptionDefault" class="label-default"></label>
+			                        </div>
+			                    </li>
+			                    <li class="list-group-item">
+			                        Bootstrap Switch Primary
+			                        <div class="material-switch pull-right">
+			                            <input id="someSwitchOptionPrimary" name="someSwitchOption001" type="checkbox"/>
+			                            <label for="someSwitchOptionPrimary" class="label-primary"></label>
+			                        </div>
+			                    </li>
+			                    <li class="list-group-item">
+			                        Bootstrap Switch Success
+			                        <div class="material-switch pull-right">
+			                            <input id="someSwitchOptionSuccess" name="someSwitchOption001" type="checkbox"/>
+			                            <label for="someSwitchOptionSuccess" class="label-success"></label>
+			                        </div>
+			                    </li>
+			                    <li class="list-group-item">
+			                        Bootstrap Switch Info
+			                        <div class="material-switch pull-right">
+			                            <input id="someSwitchOptionInfo" name="someSwitchOption001" type="checkbox"/>
+			                            <label for="someSwitchOptionInfo" class="label-info"></label>
+			                        </div>
+			                    </li>
+			                    <li class="list-group-item">
+			                        Bootstrap Switch Warning
+			                        <div class="material-switch pull-right">
+			                            <input id="someSwitchOptionWarning" name="someSwitchOption001" type="checkbox"/>
+			                            <label for="someSwitchOptionWarning" class="label-warning"></label>
+			                        </div>
+			                    </li>
+			                    <li class="list-group-item">
+			                        Bootstrap Switch Danger
+			                        <div class="material-switch pull-right">
+			                            <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
+			                            <label for="someSwitchOptionDanger" class="label-danger"></label>
+			                        </div>
+			                    </li>
+			                </ul> -->
+						</div>
+					</div>
+					
+					<div class="col-md-10">
+						<nav class="navbar border-bottom navbar-fixed-top bg-white p-t-10" role="navigation">
+							<div class="container">
+								<!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-ex1-collapse">
+										<span class="sr-only">Toggle navigation</span>
+										<!-- <span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span> -->
+										<span class="f-10">MENU</span>
+									</button>
+								<a href="#" class="navbar-brand" id="openSidebar"><i class=" fa fa-th-large" onclick="openSidebar()" ></i></a>
+
+								<a class="navbar-brand p-t-20 f-24 f2" href="index.html">spotHR</a>
+								</div>
+						
+								<!-- Collect the nav links, forms, and other content for toggling -->
+								<div class="collapse navbar-collapse navbar-ex1-collapse twidth-700">
+									<!-- <ul class="nav navbar-nav">
+										<li class="active"><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+									</ul>
+									<form class="navbar-form navbar-left" role="search">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Search">
+										</div>
+										<button type="submit" class="btn btn-default">Submit</button>
+									</form> -->
+									<ul class="nav navbar-nav navbar-right bg-white">
+										<!-- <li class="m-t-10 c-white m-r-20"><a href="team.html" class="hvr-underline-from-left p-b-7 p-r-0 p-l-0 mp-r-15 mp-l-15">Teams</a></li>
+
+										<li class="m-t-10 c-white m-r-20"><a href="index.html" class="hvr-underline-from-left p-b-7 p-r-0 p-l-0 mp-r-15 mp-l-15">The Rules</a></li> -->
+
+										<li class="m-t-10 m-r-20"><a href=""><span><i class="fa fa-lg fa-bell-o" aria-hidden="true"></i></span></a></li>
+										
+										<li class="dropdown bd-brand1">
+											<a href="#" class="dropdown-toggle p-t-10 p-b-10" data-toggle="dropdown"><img src="assets/img/nk.jpg" class="width-30 h-30 img-circle">&nbsp; &nbsp;Nemi Banigo <b class="caret"></b></a>
+											<ul class="dropdown-menu m-t-5">
+												<li><a href="#">
+													<img src="assets/img/manager.png">&nbsp; &nbsp; My Profile</a>
+												</li>
+												<li><a href="#">
+													<img src="assets/img/logout.png">&nbsp; &nbsp;Logout</a>
+												</li>
+												<li><a href="#">
+													<img src="assets/img/setting.png">&nbsp; &nbsp;Settings</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div><!-- /.navbar-collapse -->
+							</div>
+						</nav>
+					</div>			
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+
+
+	<section>
+		<div class="container m-t-7p mm-t-10p tm-t-10p m-l-15p mm-l-0 tm-l-0 p-b-5p">
+			<div class="row">
+				
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					<p class="w-900 f-40 f2 mm-t-45">Overview</p>
+					<div class="bs p-20 bg-white m-t-5p">
+						<p class="w-900 f-24 f4">Reports</p>
+						<div class="bd-brand pos-rel p-60 mp-30 m-t-5p bd-10">
+							<p class="case f2 f-16 mf-13">&nbsp;BUDGIT&nbsp;</p>
+							<p class="c-darkss f-12 f4 f-right m-t-20 m-r-30"><a href="">VIEW</a></p>
+							<div class="row m-t-7p m-b-10 mm-t-21p tm-t-10p text-center">
+								<div class="col-md-3 col-xs-6 col-sm-3">
+									<p class="f-10">SHIFTS</p>
+									<p class="f4 f-30">24</p>
+								</div>
+								<div class="col-md-3 col-xs-6 col-sm-3">
+									<p class="f-10">ACTIVITIES</p>
+									<p class="f4 f-30">24</p>
+								</div>
+								<div class="col-md-3 col-xs-6 col-sm-3">
+									<p class="f-10">CLOCK-INS</p>
+									<p class="f4 f-30">24</p>
+								</div>
+								<div class="col-md-3 col-xs-6 col-sm-3">
+									<p class="f-10">CLOCK-OUTS</p>
+									<p class="f4 f-30">24</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="bd-brand pos-rel p-60 mp-30 m-t-5p bd-10">
+							<p class="case f2 f-16 mf-13">&nbsp;BUDGIT&nbsp;</p>
+							<p class="c-darkss f-12 f4 f-right m-t-20 m-r-30"><a href="">VIEW</a></p>
+							<div class="row m-t-7p m-b-10 mm-t-21p tm-t-10p text-center">
+								<div class="col-md-3 col-xs-6 col-sm-3">
+									<p class="f-10">SHIFTS</p>
+									<p class="f4 f-30">24</p>
+								</div>
+								<div class="col-md-3 col-xs-6 col-sm-3">
+									<p class="f-10">ACTIVITIES</p>
+									<p class="f4 f-30">24</p>
+								</div>
+								<div class="col-md-3 col-xs-6 col-sm-3">
+									<p class="f-10">CLOCK-INS</p>
+									<p class="f4 f-30">24</p>
+								</div>
+								<div class="col-md-3 col-xs-6 col-sm-3">
+									<p class="f-10">CLOCK-OUTS</p>
+									<p class="f4 f-30">24</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="bd-brand pos-rel p-60 mp-30 m-t-5p bd-10">
+							<p class="case f2 f-16 mf-13">&nbsp;BUDGIT&nbsp;</p>
+							<p class="c-darkss f-12 f4 f-right m-t-20 m-r-30"><a href="">VIEW</a></p>
+							<div class="row m-t-7p m-b-10 mm-t-21p tm-t-10p text-center">
+								<div class="col-md-3 col-xs-6 col-sm-3">
+									<p class="f-10">SHIFTS</p>
+									<p class="f4 f-30">24</p>
+								</div>
+								<div class="col-md-3 col-xs-6 col-sm-3">
+									<p class="f-10">ACTIVITIES</p>
+									<p class="f4 f-30">24</p>
+								</div>
+								<div class="col-md-3 col-xs-6 col-sm-3">
+									<p class="f-10">CLOCK-INS</p>
+									<p class="f4 f-30">24</p>
+								</div>
+								<div class="col-md-3 col-xs-6 col-sm-3">
+									<p class="f-10">CLOCK-OUTS</p>
+									<p class="f4 f-30">24</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="bd-brand pos-rel p-60 mp-30 m-t-5p bd-10">
+							<p class="case f2 f-16 mf-13">&nbsp;BUDGIT&nbsp;</p>
+							<p class="c-darkss f-12 f4 f-right m-t-20 m-r-30"><a href="">VIEW</a></p>
+							<div class="row m-t-7p m-b-10 mm-t-21p tm-t-10p text-center">
+								<div class="col-md-3 col-xs-6 col-sm-3">
+									<p class="f-10">SHIFTS</p>
+									<p class="f4 f-30">24</p>
+								</div>
+								<div class="col-md-3 col-xs-6 col-sm-3">
+									<p class="f-10">ACTIVITIES</p>
+									<p class="f4 f-30">24</p>
+								</div>
+								<div class="col-md-3 col-xs-6 col-sm-3">
+									<p class="f-10">CLOCK-INS</p>
+									<p class="f4 f-30">24</p>
+								</div>
+								<div class="col-md-3 col-xs-6 col-sm-3">
+									<p class="f-10">CLOCK-OUTS</p>
+									<p class="f4 f-30">24</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+		</div>
+	</section>
+
+
+	
+	
+	
+
+	
+
+	
+	<script type="text/javascript" src="libraries/bootstrap/js/jquery-3.1.1.min.js"></script>
+
+    <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+    </script>
+</body>
+	<script type="text/javascript">
+  		$('#openSidebar').click(function(){
+			$('.leftbar').addClass('biger');
+		});
+		$('#closebtn').click(function(){
+			$('.leftbar').removeClass('biger');
+		});
+    </script>
+</html>

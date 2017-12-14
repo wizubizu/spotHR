@@ -1,0 +1,241 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>spotHR</title>
+	
+
+	<!-- STYLESHEETS-->
+	<link rel="stylesheet" type="text/css" href="libraries/bootstrap/css/bootstrap.min.css">
+
+	<!-- CUSTOM STYLES -->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/switch.css">
+	
+
+
+	<!-- WEBFONT -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+
+	<!-- ICON -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="bg-greys">
+
+	<header>
+		
+
+		<div class="section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-2">
+						<div class="leftbar bs">
+							<i class="fa fa-close  mm-t-50 tm-t-50" id="closebtn"></i>
+							<!-- <div class=" mm-t-40 tm-t-40">
+								<a href="index.html"><img src="assets/img/Image 9.svg" class="width-150 m-l-40 mm-l-20 m-t-10"></a>
+							</div>
+							<div class="m-t-30">
+								<p class="">League of Xtraordin...</p>
+								<p class=""><img src="assets/img/greencircle.svg" class="width-10">&nbsp; &nbsp;Adeem Balotola</p>
+							</div> -->
+							
+							<div class="m-t-80">
+								<p class=""><a href="user-profile.html"><img src="assets/img/dash.png" class="">&nbsp; &nbsp;Dashboard</a></p>
+								<p class="activedashboard"><a href="client.html"><img src="assets/img/client.png" class=""> &nbsp; &nbsp;Clients</a></p>
+								<p class=""><a href=""><img src="assets/img/manager.png" class="">&nbsp; &nbsp;Managers</a></p>
+								<p class=""><a href=""><img src="assets/img/employee.png" class="">&nbsp; &nbsp;Employees</a></p>
+								<p class=""><a href=""><img src="assets/img/roles.png" class="">&nbsp; &nbsp;Roles</a></p>
+							</div>
+							<hr class="m-t-150 mm-t-30 tm-t-20">
+							<p >
+							<a href=""><img src="assets/img/help.png" class=""> &nbsp; &nbsp;Help</a></p>
+
+							<p class="f2 f-16 mf-10 m-t-10p"><span>Abc</span> &nbsp; &nbsp; 
+								<span class="material-switch">
+		                            <input id="someSwitchOptionPrimary" name="someSwitchOption001" type="checkbox"/>
+		                            <label for="someSwitchOptionPrimary" class="bg-blues"></label>
+		                        </span> &nbsp; &nbsp;
+		                    <span>ABC</span></p>
+						</div>
+					</div>
+					
+					<div class="col-md-10">
+						<nav class="navbar border-bottom navbar-fixed-top bg-white p-t-10" role="navigation">
+							<div class="container">
+								<!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-ex1-collapse">
+										<span class="sr-only">Toggle navigation</span>
+										<!-- <span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span> -->
+										<span class="f-10">MENU</span>
+									</button>
+								<a href="#" class="navbar-brand" id="openSidebar"><i class=" fa fa-th-large" onclick="openSidebar()" ></i></a>
+
+								<a class="navbar-brand p-t-20 f-24 f2" href="index.html">spotHR</a>
+								</div>
+						
+								<!-- Collect the nav links, forms, and other content for toggling -->
+								<div class="collapse navbar-collapse navbar-ex1-collapse twidth-700">
+									<!-- <ul class="nav navbar-nav">
+										<li class="active"><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+									</ul>
+									<form class="navbar-form navbar-left" role="search">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Search">
+										</div>
+										<button type="submit" class="btn btn-default">Submit</button>
+									</form> -->
+									<ul class="nav navbar-nav navbar-right bg-white">
+										<!-- <li class="m-t-10 c-white m-r-20"><a href="team.html" class="hvr-underline-from-left p-b-7 p-r-0 p-l-0 mp-r-15 mp-l-15">Teams</a></li>
+
+										<li class="m-t-10 c-white m-r-20"><a href="index.html" class="hvr-underline-from-left p-b-7 p-r-0 p-l-0 mp-r-15 mp-l-15">The Rules</a></li> -->
+
+										<li class="m-t-10 m-r-20"><a href=""><span><i class="fa fa-lg fa-bell-o" aria-hidden="true"></i></span></a></li>
+										
+										<li class="dropdown bd-brand1">
+											<a href="#" class="dropdown-toggle p-t-10 p-b-10" data-toggle="dropdown"><img src="assets/img/nk.jpg" class="width-30 h-30 img-circle">&nbsp; &nbsp;Nemi Banigo <b class="caret"></b></a>
+											<ul class="dropdown-menu m-t-5">
+												<li><a href="#">
+													<img src="assets/img/manager.png">&nbsp; &nbsp; My Profile</a>
+												</li>
+												<li><a href="#">
+													<img src="assets/img/logout.png">&nbsp; &nbsp;Logout</a>
+												</li>
+												<li><a href="#">
+													<img src="assets/img/setting.png">&nbsp; &nbsp;Settings</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div><!-- /.navbar-collapse -->
+							</div>
+						</nav>
+					</div>			
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+
+
+	<section>
+		<div class="container m-t-7p mm-t-10p tm-t-10p m-l-15p mm-l-0 tm-l-0 p-b-5p">
+			<div class="row">
+				
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					<p class="w-900 f-40 f2 mm-t-45">Clients</p>
+					<div class="bs p-50 mp-20 bg-white m-t-5p">
+						<div class="row">
+							<div class="col-md-5 col-sm-6 pos-rel">
+								<input type="search" name="" id="input" class="form-control p-l-30" placeholder="search client">
+								<span class="pos-abs t-9 l-25"><i class="fa fa-lg fa-search" aria-hidden="true"></i></span>
+							</div>
+							<div class="col-md-2 col-sm-1"></div>
+							<div class="col-md-3 col-xs-8 col-sm-3 mm-t-5">
+								<a href=""><span><i class="fa fa-plus" aria-hidden="true"></i></span>&nbsp; &nbsp;Add new client</a>
+							</div>
+							<div class="col-md-2 col-xs-4 col-sm-2 mm-t-5">
+								<p class="f4"><a href="">View all</a></p>
+							</div>
+						</div>
+
+						<div class="row text-center m-t-5p">
+							<div class="col-md-4 col-sm-4">
+								<a href=""><div class="bs bd-10 p-b-5p h-130">
+									<p class="c-darkss p-t-20 p-l-60p f4 f-12">VIEW</p>
+									<img src="assets/img/autosmart.png">
+								</div></a>
+							</div>
+							<div class="col-md-4 col-sm-4 mm-t-10">
+								<a href=""><div class="bs bd-10 p-b-15 h-130">
+									<p class="c-darkss p-t-20  p-l-60p f4 f-12">VIEW</p>
+									<img src="assets/img/budgit.png">
+								</div></a>
+							</div>
+							<div class="col-md-4 col-sm-4 mm-t-10">
+								<a href=""><div class="bs bd-10 p-b-15 h-130">
+									<p class="c-darkss p-t-20  p-l-60p f4 f-12">VIEW</p>
+									<img src="assets/img/invision.png">
+								</div></a>
+							</div>
+						</div>
+						<div class="row text-center m-t-5p">
+							<div class="col-md-4 col-sm-4">
+								<a href=""><div class="bs bd-10 p-b-5p h-130">
+									<p class="c-darkss p-t-20 p-l-60p f4 f-12">VIEW</p>
+									<img src="assets/img/nulogy.png">
+								</div></a>
+							</div>
+							<div class="col-md-4 col-sm-4 mm-t-10">
+								<a href=""><div class="bs bd-10 p-b-15 h-130">
+									<p class="c-darkss p-t-20  p-l-60p f4 f-12">VIEW</p>
+									<img src="assets/img/puma.png">
+								</div></a>
+							</div>
+							<div class="col-md-4 col-sm-4 mm-t-10">
+								<a href=""><div class="bs bd-10 p-b-15 h-130">
+									<p class="c-darkss p-t-20  p-l-60p f4 f-12">VIEW</p>
+									<img src="assets/img/mang.png">
+								</div></a>
+							</div>
+						</div>
+						<div class="row text-center m-t-5p">
+							<div class="col-md-4 col-sm-4">
+								<a href=""><div class="bs bd-10 p-b-5p h-130">
+									<p class="c-darkss p-t-20 p-l-60p f4 f-12">VIEW</p>
+									<img src="assets/img/reebok.png">
+								</div></a>
+							</div>
+							<div class="col-md-4 col-sm-4 mm-t-10">
+								<a href=""><div class="bs bd-10 p-b-15 h-130">
+									<p class="c-darkss p-t-20  p-l-60p f4 f-12">VIEW</p>
+									<img src="assets/img/sheet.png">
+								</div></a>
+							</div>
+							<div class="col-md-4 col-sm-4 mm-t-10">
+								<a href=""><div class="bs bd-10 p-b-15 h-130">
+									<p class="c-darkss p-t-20  p-l-60p f4 f-12">VIEW</p>
+									<img src="assets/img/sheet.png">
+								</div></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+		</div>
+	</section>
+
+
+	
+	
+	
+
+	
+
+	
+	<script type="text/javascript" src="libraries/bootstrap/js/jquery-3.1.1.min.js"></script>
+
+    <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+    </script>
+</body>
+	<script type="text/javascript">
+  		$('#openSidebar').click(function(){
+			$('.leftbar').addClass('biger');
+		});
+		$('#closebtn').click(function(){
+			$('.leftbar').removeClass('biger');
+		});
+    </script>
+</html>
