@@ -400,6 +400,7 @@ select:focus {
 .l-43p { left:43% !important; }
 
 /****  Right  ****/
+.r-_117 { right:-117px !important; }
 .r-0 { right:0 !important; }
 .r-5 { right:5px !important; }
 .r-10 { right:10px !important; }
@@ -505,6 +506,7 @@ select:focus {
 .width-360 {width:360px !important;}
 .width-395 {width:395px !important;}
 .width-400 {width:400px !important;}
+.width-450 {width:450px !important;}
 .width-494 {width:494px !important;}
 .width-500 {width:500px !important;}
 .width-540 {width:540px !important;}
@@ -800,7 +802,7 @@ a:focus, a:hover {
 	top: 0%;
 	background-color: white;
 	border-right: 1px solid grey;
-	width: 17.3%;
+	width: 22.3%;
 	height: 100%;
 	transition: all .6s ease;
 }
@@ -898,7 +900,7 @@ i#closebtn {
 
 .leftbar p {
     background-color: white;
-    padding: 6px 40px;
+    padding: 12px 70px;
     margin-bottom: 1%;
     text-align: left;
     color: black;
@@ -931,6 +933,11 @@ i#closebtn {
 	border-top: none !important;
 }
 
+.me1>thead>tr>th{
+	border-bottom: none !important;
+	border-top: none !important;
+}
+
 .me>tbody>tr>.td{
 	border-bottom: 1px solid #ddd !important;
 	border-top: 1px solid #ddd !important;
@@ -942,7 +949,7 @@ i#closebtn {
 }
 .me>thead>tr>th {
     /*border: 1px solid #ddd ! important;*/
-   	border-bottom: 1px solid #ddd !important;
+   	/*border-bottom: 1px solid #ddd !important;*/
 	/*border-top: 1px solid #ddd !important;
 */
 }
@@ -953,6 +960,8 @@ i#closebtn {
 	border-right: none !important;
 
 }
+
+
 
  @media screen and (max-width: 560px){
 	.table-responsive>.table>tbody>tr>td, .table-responsive>.table>tbody>tr>th{
